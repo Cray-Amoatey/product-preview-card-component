@@ -19,11 +19,14 @@ main {
     left: 450px;
     top: 175px;
     display: flex;
+    border-radius: 10px;
 }
 
 
 .card img {
     width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .card>.description {
@@ -102,25 +105,29 @@ h3 {
 .add-to-cart img{
     width: 14.39px;
     height: 16px;
+    margin-right: 11px;
 }
 
-.add-to-cart{
+
+
+.add-to-cart {
     width: 236px;
     height: 48px;
     background-color: #3D8168;
     position: absolute;
     border-radius: 8px;
     border: none;
-    top:82.22%;
-    left:55.33% ;
+    top: 82.22%;
+    left: 55.33%;
     color: #FFFFFF;
     line-height: 17px;
     font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-
+    align-items: center;
 }
-:hover .add-to-cart{
+
+.add-to-cart:hover {
     cursor: pointer;
     background-color: #1A4032;
 }
