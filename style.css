@@ -105,7 +105,9 @@ h3 {
 .add-to-cart img{
     width: 14.39px;
     height: 16px;
-    margin-right: 11px;
+    right: 170px;
+    position: absolute;
+    align-content: center;
 }
 
 
@@ -131,3 +133,11 @@ h3 {
     cursor: pointer;
     background-color: #1A4032;
 }
+
+.add-to-cart:active {
+    background-color: #1A4032;
+
+}
+
+
+
