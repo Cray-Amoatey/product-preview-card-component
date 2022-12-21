@@ -27,7 +27,6 @@ main{
 }
 
 .card > .description{
-    background-color: brown;
     width: 300px;
     height: 450px;
 }
