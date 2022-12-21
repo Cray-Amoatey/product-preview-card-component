@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 main {
@@ -21,7 +21,6 @@ main {
     display: flex;
     border-radius: 10px;
 }
-
 
 .card img {
     width: 300px;
@@ -80,8 +79,6 @@ h3 {
     left: 55.33%;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .sale-price {
@@ -102,15 +99,13 @@ h3 {
     text-decoration: line-through;
 }
 
-.add-to-cart img{
+.add-to-cart img {
     width: 14.39px;
     height: 16px;
     right: 170px;
     position: absolute;
     align-content: center;
 }
-
-
 
 .add-to-cart {
     width: 236px;
@@ -136,8 +131,9 @@ h3 {
 
 .add-to-cart:active {
     background-color: #1A4032;
-
 }
 
-
-
+/* Media Query */
+@media only screen and (max-width:) {
+    
+}
