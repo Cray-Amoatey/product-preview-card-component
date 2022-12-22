@@ -1,14 +1,13 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
 main {
     background-color: #F2EAE2;
-    height: 1440px;
-    height: 800px;
+    min-height: 100vh;
 }
 
 .card {
@@ -16,14 +15,15 @@ main {
     height: 450px;
     background-color: white;
     position: absolute;
-    left: 450px;
-    top: 175px;
+    left: 35%;
+    top: 25%;
     display: flex;
     border-radius: 10px;
 }
 
 .card img {
     width: 300px;
+    height: 450px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -133,7 +133,15 @@ h3 {
     background-color: #1A4032;
 }
 
-/* Media Query */
-@media only screen and (max-width:) {
-    
+.attribution {
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    color: #82728C;
 }
+
+.attribution a {
+color: #82728C;
+}
+    
