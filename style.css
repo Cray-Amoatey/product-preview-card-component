@@ -35,7 +35,7 @@ body {
     height: 450px;
 }
 
-legend {
+.description h1 {
 
     font-weight: 500;
     font-size: 12px;
@@ -48,7 +48,7 @@ legend {
     top: calc(50% - 15px / 2 - 185.5px);
 }
 
-h3 {
+.description h3 {
     width: 236px;
     height: 96px;
     font-weight: 700;
